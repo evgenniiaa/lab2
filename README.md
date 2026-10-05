@@ -28,24 +28,24 @@ dY - на сколько возраст Миши отличается от ср�
 #include <locale.h>
 
 int main() {
-    setlocale(LC_CTYPE, "RUS");
-    int X, Y;
-    double avg, dX, dY;
+setlocale(LC_CTYPE, "RUS");
+int X, Y;
+double avg, dX, dY;
 
-    printf("Введите возраст Коли X: ");
-    scanf("%d", &X);
-    printf("Введите возраст Миши Y: ");
-    scanf("%d", &Y);
+printf("Введите возраст Коли X: ");
+scanf("%d", &X);
+printf("Введите возраст Миши Y: ");
+scanf("%d", &Y);
 
-    avg = (X + Y) / 2.0;
-    dX = X - avg;
-    dY = Y - avg;
+avg = (X + Y) / 2.0;
+dX = X - avg;
+dY = Y - avg;
 
-    printf("Средний возраст: %.2lf\n", avg);
-    printf("Отклонение возраста Коли: %.2lf\n", dX);
-    printf("Отклонение возраста Миши: %.2lf\n", dY);
+printf("Средний возраст: %.2lf\n", avg);
+printf("Отклонение возраста Коли: %.2lf\n", dX);
+printf("Отклонение возраста Миши: %.2lf\n", dY);
 
-    return 0;
+return 0;
 }
 ### 3. Результат работы программы
 Введите возраст Коли X: 40
