@@ -29,8 +29,8 @@ dY - на сколько возраст Миши отличается от ср�
 #include <stdio.h>
 #include <locale.h>
 
-int main() {
-    setlocale(LC_CTYPE, "RUS");
+zadanie1()
+{
     int X, Y;
     double avg, dX, dY;
 
@@ -46,7 +46,11 @@ int main() {
     printf("Средний возраст: %.2lf\n", avg);
     printf("Отклонение возраста Коли: %.2lf\n", dX);
     printf("Отклонение возраста Миши: %.2lf\n", dY);
+}
 
+int main() {
+    setlocale(LC_CTYPE, ".UTF-8");
+    zadanie1();
     return 0;
 }
 ```
