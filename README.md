@@ -20,8 +20,7 @@ dX - на сколько возраст Коли отличается от ср�
 dY - на сколько возраст Миши отличается от среднего.
 7. Конец
 #### Блок схема
-<img width="162" height="662" alt="дз_лаб2 drawio" src="https://github.com/user-attachments/assets/fe121e0d-f945-49a8-9537-21446f531116" />
-
+<img width="168" height="826" alt="дз_лаб2 drawio" src="https://github.com/user-attachments/assets/c32b64dd-650a-46de-9311-ba1938ffee8c" />
 
 ### 2. Реализация программы
 ```
